@@ -1,7 +1,7 @@
 pipeline {
     agent any
     triggers {
-        pollSCM('* * * * *') // This ensures Jenkins polls for changes every minute
+        pollSCM('* * * * *') // comment for trigger 1
     }
     stages {
         stage('Checkout') {
