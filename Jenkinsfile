@@ -1,7 +1,7 @@
 pipeline {
     agent any
     triggers {
-        pollSCM('* * * * *') // comment for trigger 2
+        pollSCM('* * * * *') // comment for trigger 3
     }
     stages {
         stage('Checkout') {
